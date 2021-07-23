@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Avenir® Next', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+.about__header, .experience__header, .skills__header, .education__header, .course__header, .languages__header, .hobby__header {
+    font-size: 20px;
+}
+
+.header {
+    border-bottom: 2px solid #c0c0c0;
+    padding: 30px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__data {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    position: relative;
+}
+
+.header__name {
+    font-size: 35px;
+}
+
+.header__nav {
+    text-decoration: none;
+    color: #000;
+
+    transition: color .2s linear;
+}
+
+.header__nav:hover {
+    color: #0e76a8;
+}
+
+.about {
+    padding: 30px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.about__header {
+    position: relative;
+    bottom: 10px;
+}
+
+.experience {
+    padding: 30px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.experience__header {
+    position: relative;
+    bottom: 15px;
+}
+
+.experience__link {
+    color: #000;
+    font-size: 25px;
+    text-decoration: none;
+
+    transition: color .2s linear;
+}
+
+.experience__link:hover {
+    color: #0e76a8;
+}
+
+.skills {
+    padding: 30px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.education {
+    padding: 30px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.education__header {
+    position: relative;
+    bottom: 10px;
+}
+
+.education__specialist {
+    position: relative;
+    font-size: 30px;
+}
+
+.course {
+    padding: 20px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.languages {
+    padding: 20px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.hobby {
+    padding: 40 px;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+
+
+
